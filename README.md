@@ -397,3 +397,10 @@
     };
 </script>
 ```
+&nbsp;
+&nbsp;
+## Legacy versions
+This version of the Mi-Table are the current stable version which is supported for feature updates.
+
+## Do you have any Ideas, Changes or Bugs ?
+Please let me know in the Comments, i will try to fix or add what you found/want :D
