@@ -109,7 +109,7 @@
 | | scrollY | | Max height of the table | String | "" |
 | | scrollX | | Max width of the table | String | "" |
 | | templateActive | | Use the template to render | Boolean | false |
-| | template | | Table template design | String | "HL:\<l>\<e>\<o>,HR:\<v>\<s>,FL:\<f>,FR:\<p>" |
+| | template | | Table template design | String | "HL:\<l>\<e>\<o>\<se>,HR:\<v>\<s>,FL:\<f>,FR:\<p>" |
 | | language | | Tabel language for any renderd text (`de`, `en`) | String | "en" |
 
 &nbsp;
@@ -117,7 +117,8 @@
 ## All config <a id="events">events</a> in the Mi-Table
 | <strong style="color: #6ba0ff;">Event</strong> | <strong style="color: #6ba0ff;">Description</strong> |
 | --- | --- |
-| `initComplete` | After table is renderd |
+| `initComplete` | After table is configured |
+| `tableComplete` | After table is renderd |
 
 &nbsp;
 &nbsp;
@@ -132,6 +133,7 @@
 | `pagination` | `on` | page | After pagination click | Number |
 | `order` | `on` | orders | After ordering | Array[Number] |
 | `add` | `emit` | data | Append data to table | Array |
+| `search` | `emit` | data | Search the table | String |
 
 &nbsp;
 &nbsp;
